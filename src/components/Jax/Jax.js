@@ -16,13 +16,26 @@ class Jax extends React.Component {
    */
   moveIris = (event) => {
     const iris = this.iris.current;
+    let left = (event.clientX - (iris.offsetWidth * 2)) / 80;
+    let top = (event.clientY - (iris.offsetHeight * 2)) / 80;
 
-    const x = (iris.getBoundingClientRect().left) + (iris.offsetWidth / 2);
-    const y = (iris.getBoundingClientRect().top) + (iris.offsetHeight / 2);
-    const rad = Math.atan2(event.pageX - x, event.pageY - y);
-    const rot = (rad * (180 / Math.PI) * -1) + 180;
+    if (top < -7) {
+      top = -10;
+    }
 
-    iris.style.setProperty('transform', 'rotate(' + rot + 'deg)');
+    if (top >= 12.5) {
+      top = 12.5;
+    }
+
+    if (left <= -9) {
+      left = -9;
+    }
+
+    if (left >= 12) {
+      left = 12;
+    }
+
+    iris.style.transform = 'translate(' + left + '%, ' + top + '%)';
   }
 
   render() {

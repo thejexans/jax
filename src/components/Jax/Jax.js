@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import classes from './Jax.module.css';
 import JaxBackground from './Jax.svg';
 import JaxIris from './Iris.svg';
 
-class Jax extends React.Component {
+class Jax extends Component {
   constructor(props) {
     super(props);
     this.iris = React.createRef();

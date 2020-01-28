@@ -1,0 +1,20 @@
+<svg id="Jax" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 157 157">
+  <defs>
+    <linearGradient id="linear-gradient" x1="10103.51" y1="7006.25" x2="10179.7" y2="6874.29" gradientTransform="matrix(-0.92, -0.39, -0.39, 0.92, 12136.81, -2362.85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05ccbd"/>
+      <stop offset="0.41" stop-color="#02aaa2"/>
+      <stop offset="0.77" stop-color="#019290"/>
+      <stop offset="1" stop-color="#008989"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="10092.05" y1="6975.56" x2="10230.66" y2="6975.56" gradientTransform="matrix(-0.92, -0.39, -0.39, 0.92, 12136.81, -2362.85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#39ea91"/>
+      <stop offset="1" stop-color="#06ead9"/>
+    </linearGradient>
+  </defs>
+  <title>Iris</title>
+  <g id="Iris">
+    <path id="UpperGradient" d="M20.3,25.61a78.53,78.53,0,1,1,94,122.47l-35.59-70Z" style="fill: url(#linear-gradient)"/>
+    <path id="LowerGradient" d="M20.3,25.61,78.73,78.08l35.59,70a78.53,78.53,0,0,1-94-122.47Z" style="fill: url(#linear-gradient-2)"/>
+    <circle id="Pupil" cx="78.73" cy="78.08" r="39.56" style="fill: #2a5654"/>
+  </g>
+</svg>
